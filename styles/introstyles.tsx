@@ -18,7 +18,7 @@ export const introStyles = StyleSheet.create({
     padding: 20,
     borderRadius: 20,
     marginTop: 300, // Moves it down a bit from the top
-    opacity: 0.7,
+    opacity: 0.9,
 
   },
 
@@ -35,14 +35,15 @@ export const introStyles = StyleSheet.create({
     backgroundColor: themeColors.orange,
     paddingVertical: 8, // smaller button height
     paddingHorizontal: 20, // keeps it narrow
-    borderRadius: 50, // fully rounded
+    borderRadius: 30, // fully rounded
     marginBottom: 30, // spacing from bottom
     alignSelf: "center",
+    opacity: 0.9,
   },
 
   buttonText: {
-    color: "white",
-    fontSize: 12,
+    color: "black",
+    fontSize: 20,
     fontWeight: "bold",
     textAlign: "center",
   },

@@ -2,7 +2,7 @@ import React from "react";
 import { ImageBackground, Text, TouchableOpacity, View } from "react-native";
 import { introStyles } from "../styles/introstyles";
 
-export default function App() {
+export default function Index() {
   return (
     <View style={introStyles.container}>
       <ImageBackground
